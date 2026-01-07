@@ -131,7 +131,7 @@ const Hero = () => {
                 }}
             />
 
-            <div style={{ position: 'relative', zIndex: 1, pointerEvents: 'none' }}>
+            <div style={{ position: 'relative', zIndex: 1, pointerEvents: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <h2 style={{
                     fontSize: '1rem',
                     textTransform: 'uppercase',
